@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+    xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+    id="WebApp_ID" version="4.0">
+  <display-name>Archetype Created Web Application</display-name>
+  <display-name>MyFirstWebProjet</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+  	<servlet-name>Index</servlet-name>
+  	<servlet-class>
+  		yg.servlet.Index
+  	</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>Index</servlet-name>
+  	<url-pattern>/</url-pattern>
+  </servlet-mapping>
+  
+  
+  <servlet>
+  	<servlet-name>ListeArticles</servlet-name>
+  	<servlet-class>
+  		yg.servlet.ListeArticles
+  	</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>ListeArticles</servlet-name>
+  	<url-pattern>/ListeArticles</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>ArticleUni</servlet-name>
+  	<servlet-class>
+  		yg.servlet.ArticleUni
+  	</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>ArticleUni</servlet-name>
+  	<url-pattern>/ArticleUni</url-pattern>
+  </servlet-mapping>
+  
+    <servlet>
+  	<servlet-name>NomAuteur</servlet-name>
+  	<servlet-class>
+  		yg.servlet.NomAuteur
+  	</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>NomAuteur</servlet-name>
+  	<url-pattern>/NomAuteur</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>AjtArticle</servlet-name>
+  	<servlet-class>
+  		yg.servlet.AjtArticle
+  	</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>AjtArticle</servlet-name>
+  	<url-pattern>/AjtArticle</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+  	<servlet-name>AjtAuteur</servlet-name>
+  	<servlet-class>
+  		yg.servlet.AjtAuteur
+  	</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>AjtAuteur</servlet-name>
+  	<url-pattern>/AjtAuteur</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+  	<servlet-name>MAJ</servlet-name>
+  	<servlet-class>
+  		yg.servlet.MAJ
+  	</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>MAJ</servlet-name>
+  	<url-pattern>/MAJ</url-pattern>
+  </servlet-mapping>
+</web-app>
